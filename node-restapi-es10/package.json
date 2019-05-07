@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build":"babel src --out-dir deployFolder"
+    "build":"babel src --out-dir deployFolder",
+    "start": "node deployFolder/index.js"
   },
   "keywords": [],
   "author": "",
